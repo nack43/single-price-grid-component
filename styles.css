@@ -1,16 +1,16 @@
 :root {
-  --color-light-green: #b7e100;
-  --color-cyan: #00b6b2;
-  --color-light-cyan: #00c2be;
-  --color-grey: #9aa7be;
-  --color-white: #ffffff;
-  --color-light-sky-blue: #e4eff5;
+  --color-bright-yellow: hsl(71, 73%, 54%);
+  --color-cyan: hsl(179, 62%, 43%);
+  --color-light-cyan: hsl(179, 47%, 52%);
+  --color-light-gray: hsl(204, 43%, 93%);
+  --color-grayish-blue: hsl(218, 22%, 67%);
+  --color-white: hsl(0, 100%, 100%);
 }
 
 body {
   display: grid;
   place-items: center;
-  background: var(--color-light-sky-blue);
+  background: var(--color-light-gray);
   font-family: "Karla", sans-serif;
   font-size: 16px;
 }
@@ -50,7 +50,7 @@ h2 {
 }
 
 button {
-  background: var(--color-light-green);
+  background: var(--color-bright-yellow);
   box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.0973011);
   border-radius: 5px;
   border: none;
@@ -74,14 +74,14 @@ button {
 }
 
 .join h2 {
-  color: var(--color-light-green);
+  color: var(--color-bright-yellow);
   margin-bottom: 11px;
 }
 
 .join p:nth-child(3) {
   line-height: 26px;
   letter-spacing: -0.2px;
-  color: var(--color-grey);
+  color: var(--color-grayish-blue);
 }
 
 .price {
